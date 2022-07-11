@@ -1,2 +1,2 @@
-# workxondao
-wxb web3 project whitelist.  live nft minting website
+# wrkxd
+wrkxd web3 project whitelist.  live nft minting website (prototype)
