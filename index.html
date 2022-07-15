@@ -80,7 +80,7 @@
         <div class="posb-boxes">
             <div class="gradient-module" data-aos="fade-down"
             data-aos-duration="3000">
-                <img src="./icons/focus.png" width="150" height="150" alt="img1">
+                <img src="./icons/focus.png" width="100" height="100" alt="img1">
                 <h2>FOCUS</h2>
                 <p> As we all had a humble beginning, it is requisite of us to give
                     back to the community and we are exceptionally grateful to do that.
@@ -88,14 +88,14 @@
             </div> 
             <div class="gradient-module" data-aos="fade-down"
             data-aos-duration="3000">
-                <img src="./icons/go.png" width="150" height="150" alt="img1">
+                <img src="./icons/go.png" width="100" height="100" alt="img1">
                 <h2>GOALS</h2>
                 <p>With laser-focus, this project is directed towards giving you a
                     unique opportunity and a chance to invest in yourself and your future.</p>
             </div>
             <div class="gradient-module" data-aos="fade-down"
             data-aos-duration="3000">
-                <img src="./icons/goa.png" width="150" height="150" alt="img1">
+                <img src="./icons/goa.png" width="100" height="100" alt="img1">
                 <h2>VISION</h2>
                 <p>Our vision is to create a resourceful environment for our
                     community members to be able to make great impact in our society
@@ -103,7 +103,7 @@
             </div>
             <div class="gradient-module" data-aos="fade-down"
             data-aos-duration="3000">
-                <img src="./icons/mission.png" width="auto" height="150" alt="img1">
+                <img src="./icons/mission.png" width="auto" height="100" alt="img1">
                 <h2>MISSION</h2>
                 <p>What we truly desire is for our project to be THE BIGGEST NFT
                     PROJECT and we want you to be a part of that. Every nationality is welcomed.</p>
@@ -114,10 +114,13 @@
     <!-- mint -->
     <section class="mint" id="mint-section">
         <div class="mint-box">
+            <input type="number" name="nft_amount" placeholder="0" id="mintNmb"><br>
+            <button id="mintMins" class="mnbtn" value="-">&minus;</button>
+            <button id="mintAdd" class="mnbtn" value="+">&plus;</button><br>
             <button class="mintBtn" id="mintBtn">MINT</button>
         </div>
     </section>
-
+    
     <!-- foreword -->
     <section class="about-us">
         <div class="about-box" >
@@ -264,6 +267,20 @@
         </div>
         <p class="copyright">Copyright &copy; <span id="copyright-year"></span> &nbsp; || &nbsp; All rights reserved</p>
     </footer>
+</div>
+<!-- Modal -->
+<div class="modal" id="myModal">
+    <!-- Modal Content -->
+    <div class="modal-content">
+        <span id="close">
+            &times;
+        </span>
+        <img src="./icons/buddha.png" width="80%" alt="">
+        <h2>Hmmmmmm !!</h2>
+        <p>I see what you are trying to do. This is a prototype. The project has been shipped elsewhere. However, you can have a feel of the entire site.</p>
+        <p>So...</p>
+        <button class="modalBtn" id="closeBtn">Back to page please</button>
+    </div>
 </div>
     <script>
         AOS.init({

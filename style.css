@@ -15,8 +15,61 @@ body {
     color: #dddd;
     user-select: none;
     scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #000;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+}
+.modal-content {
+    background: #fefefe;
+    margin: 10vh auto;
+    padding: 20px;
+    border: 1px solid green;
+    max-width: 450px;
+    min-height: 250px;
+    background: rgb(30, 51, 51);
+    border: 2px groove gold;
+    border-radius: 8px;
+    text-align: center;
+}
+.modal-content p {
+    width: 83%;
+    font-size: 16px;
+    margin: 20px auto;
+    color: rgb(185, 185, 185);
+}
+.modal-content button {
+    width: 83%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background:azure;
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+}
+#close {
+    color: azure;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Modal End */
 
 
 * a {
@@ -147,8 +200,29 @@ body {
     border: none;
     border-radius: 6px;
 }
-
-
+#mintNmb {
+    border: none;
+    outline: none;
+    background:transparent;
+    margin-bottom: 15px;
+    width: 50%;
+    text-align: center;
+    color: grey;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.mnbtn {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 800;
+    margin:0 20px 30px 20px;
+    border-radius: 6px;
+}
+.mnbtn:active {
+    background: darkslategray;
+    border: 2px solid gold;
+}
 
 
 
@@ -179,6 +253,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .posb-heading p {
+    margin-top: 10px;
     text-align: center;
     font-size: 20px;
     color: rgb(139, 139, 139);
@@ -190,9 +265,9 @@ body {
     align-items: center;
 }
 .posb-boxes > div {
-    max-width: 300px;
+    max-width: 320px;
     min-height: 300px;
-    padding: 16px;
+    padding: 16px 20px;
     /* background: burlywood; */
     margin: 40px;
     border-radius: 6px;
@@ -228,6 +303,14 @@ body {
     border-radius: 6px;
     margin: 15vh auto;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mint-box {
+    /* background: crimson; */
+    text-align: center;
 }
 
 /* about us */
@@ -750,7 +833,7 @@ footer img {
 .sub-intro {
     margin: 20px 0 40px 0;
     font-size: 20px;
-    color: rgb(158, 158, 158);
+    color: rgb(139, 139, 139);
 }
     .h-box2 {
         width: 300px;
@@ -764,6 +847,9 @@ footer img {
         border-radius: 6px;
         margin: 15vh auto;
         padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
