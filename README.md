@@ -1,2 +1,3 @@
 # wrkxd
-wrkxd web3 project whitelist.  live nft minting website (prototype)
+Workxie Billionaire market place prototype
+webste has been shipped to reactjs + solidity
